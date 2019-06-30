@@ -1,4 +1,5 @@
 # miniprogram-diff - 小程序setData高性能diff算法
+> 关于渲染性能调优专门有写过一篇文章介绍：https://mp.weixin.qq.com/s/3Os3KV6sXXAhSQ0Lj5cxfw
 
 ## 前言
 小程序的视图层和逻辑层是两个独立的线程模块，并不具备数据直接共享的通道，双方的通讯需要经过底层的JSBridge，数据到达视图层并不是实时的。
